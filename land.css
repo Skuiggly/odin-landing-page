@@ -13,7 +13,42 @@
 }
 body {
     margin: 0;
+    font: var(--main-text);
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
 }
-h1 {
-    background-color: aliceblue;
+
+header {
+    background-color: var(--main-color);
+    justify-content: space-around;
+    font-size: 18px;
+    color: var(--quote-section-bgcolor);
+}
+.header-logo {
+    width: 100px;
+}
+.header-links {
+}
+.header-links li {
+    display: inline;
+}
+
+main {
+    background-color: var(--main-color);
+    font: var(--main-text);
+}
+section {
+
+}
+footer {
+    flex: 1;
+    background-color: var(--main-color);
+    text-align: center;
+}
+.flex {
+    display: flex;
+}
+.big-boy {
+    height: max-content;
+    flex-direction: column;
 }
