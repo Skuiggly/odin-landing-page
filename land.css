@@ -98,10 +98,21 @@ section {
 
 .quote-container {
     background-color: var(--quote-section-bgcolor);
+}
+.quote-container-container {
+    margin: 2em;
+    max-width: 45ch;
+    text-align: start;
     font-style: italic;
+    font-size: 1.75rem;
+}
+.quote-container-container p {
+    margin: 0;
 }
 .quote-author {
+    text-align: end;
     font-style: normal;
+    font-size: 1.25rem;
     font-weight: 900;
     color: var(--text-color-dark);
 }
