@@ -28,7 +28,7 @@ body {
     display: flex;
 }
 .contain {
-    width: 80%;
+    width: 70%;
 }
 button {
     background-color: var(--button-color);
@@ -115,6 +115,26 @@ section {
     font-size: 1.25rem;
     font-weight: 900;
     color: var(--text-color-dark);
+}
+
+.ad-banner {
+    margin: 3em;
+    padding: 2em 0;
+    background-color: var(--button-color);
+    border-radius: 0.75rem;
+    color: var(--text-color);
+    align-items: center;
+    justify-content: space-around;
+}
+.text-box-second {
+    flex-direction: column;
+    text-align: left;
+}
+.text-box-second h3, .text-box-second p {
+    margin: 0;
+}
+.ad-banner button {
+    border: 1px solid var(--text-color);
 }
 footer {
     flex: 1;
