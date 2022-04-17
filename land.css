@@ -1,3 +1,16 @@
+:root {
+    /* colors */
+    --main-color: #1f2937;
+    --button-color: #3882f6;
+    --quote-section-bgcolor: #e5e7eb;
+    --text-color: #f9faf8;
+    /* fonts */
+    --main-text: 48px extra-bold var(--text-color);
+    --secondary-text: 18px var(--quote-section-bgcolor);
+    --header-logo-text: 24px var(--text-color);
+    --info-header-text: 36px extra-bold #1f2937;
+    --quote-text: 36px light italic #1f2937;
+}
 body {
     margin: 0;
 }
