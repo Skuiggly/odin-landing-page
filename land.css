@@ -38,20 +38,24 @@ button {
     height: 3ch;
     color: var(--text-color);
 }
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
 
-header {
+nav {
     background-color: var(--main-color);
     justify-content: center;
     font-size: 1.125rem;
     color: var(--quote-section-bgcolor);
 }
-header .contain {
+nav .contain {
     justify-content: space-between;
 }
-.header-logo {
+nav img {
     width: 100px;
 }
-.header-links li {
+nav ul li {
     display: inline;
 }
 
