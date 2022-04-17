@@ -4,6 +4,7 @@
     --button-color: #3882f6;
     --quote-section-bgcolor: #e5e7eb;
     --text-color: #f9faf8;
+    --text-color-dark: #1f2937;
     /* fonts */
     --main-text: 48px extra-bold var(--text-color);
     --secondary-text: 18px var(--quote-section-bgcolor);
@@ -79,15 +80,31 @@ main p {
 section {
     justify-content: center;
     color: var(--main-color);
+    text-align: center;
 }
 .cards {
-    display: block;
+    justify-content: center;
 }
 .cards li {
     display: inline;
+    margin: 0 1em;
+    width: 10em;
 }
-.cards li img {}
+.cards img {
+    border: 0.5ch solid var(--button-color);
+    border-radius: 1rem;
+    width: 10em;
+}
 
+.quote-container {
+    background-color: var(--quote-section-bgcolor);
+    font-style: italic;
+}
+.quote-author {
+    font-style: normal;
+    font-weight: 900;
+    color: var(--text-color-dark);
+}
 footer {
     flex: 1;
     background-color: var(--main-color);
