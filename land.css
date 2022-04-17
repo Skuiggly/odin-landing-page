@@ -11,18 +11,41 @@
     --info-header-text: 36px extra-bold #1f2937;
     --quote-text: 36px light italic #1f2937;
 }
+
 body {
     margin: 0;
-    font: var(--main-text);
     font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.big-boy {
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+.contain {
+    width: 80%;
+}
+button {
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 5px;
+    width: 11ch;
+    height: 3ch;
     color: var(--text-color);
 }
 
 header {
     background-color: var(--main-color);
-    justify-content: space-around;
-    font-size: 18px;
+    justify-content: center;
+    font-size: 1.125rem;
     color: var(--quote-section-bgcolor);
+}
+header .contain {
+    justify-content: space-between;
 }
 .header-logo {
     width: 100px;
@@ -35,20 +58,38 @@ header {
 
 main {
     background-color: var(--main-color);
-    font: var(--main-text);
+    justify-content: center;
 }
-section {
+.main-image {
+    width: 600px;
+}
+.text-box {
+    margin-right: 5%;
+}
+main h1, main p {
+    margin: 0;
+}
+main h1 {
+    font-size: 3rem;
+}
+main p {
+    font-size: 1.125rem;
+}
 
+section {
+    justify-content: center;
+    color: var(--main-color);
 }
+.cards {
+    display: block;
+}
+.cards li {
+    display: inline;
+}
+.cards li img {}
+
 footer {
     flex: 1;
     background-color: var(--main-color);
     text-align: center;
-}
-.flex {
-    display: flex;
-}
-.big-boy {
-    height: max-content;
-    flex-direction: column;
 }
