@@ -43,6 +43,7 @@ a {
     text-decoration: none;
 }
 
+/* Navigation bar */
 nav {
     background-color: var(--main-color);
     justify-content: center;
@@ -59,6 +60,7 @@ nav ul li {
     display: inline;
 }
 
+/* Main content */
 main {
     background-color: var(--main-color);
     justify-content: center;
@@ -84,6 +86,8 @@ section {
     color: var(--main-color);
     text-align: center;
 }
+
+/* Cards section */
 .cards {
     justify-content: center;
 }
@@ -98,6 +102,7 @@ section {
     width: 10em;
 }
 
+/* Quote section */
 .quote-container {
     background-color: var(--quote-section-bgcolor);
 }
@@ -119,6 +124,7 @@ section {
     color: var(--text-color-dark);
 }
 
+/* Ad banner */
 .ad-banner {
     margin: 3em;
     padding: 2em 0;
