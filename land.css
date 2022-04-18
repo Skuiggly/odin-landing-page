@@ -16,12 +16,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.125rem;
-    font-weight: 400;
     color: var(--text-color);
-}
-.big-boy {
-    flex-direction: column;
 }
 
 .flex {
@@ -54,7 +49,10 @@ nav .contain {
     justify-content: space-between;
 }
 nav img {
-    width: 100px;
+    max-width: 100px;
+}
+nav ul {
+    padding: 0;
 }
 nav ul li {
     display: inline;
@@ -66,7 +64,7 @@ main {
     justify-content: center;
 }
 .main-image {
-    width: 600px;
+    max-width: 600px;
 }
 .text-box {
     margin-right: 5%;
@@ -81,6 +79,8 @@ main p {
     font-size: 1.125rem;
 }
 
+
+
 section {
     justify-content: center;
     color: var(--main-color);
@@ -94,12 +94,12 @@ section {
 .cards li {
     display: inline;
     margin: 0 1em;
-    width: 10em;
+    max-width: 10em;
 }
 .cards img {
     border: 0.5ch solid var(--button-color);
     border-radius: 1rem;
-    width: 10em;
+    max-width: 10em;
 }
 
 /* Quote section */
@@ -145,7 +145,7 @@ section {
     border: 1px solid var(--text-color);
 }
 footer {
-    flex: 1;
     background-color: var(--main-color);
     text-align: center;
+    padding: 0.1em;
 }
